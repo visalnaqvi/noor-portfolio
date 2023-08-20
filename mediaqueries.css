@@ -47,6 +47,16 @@
   }
 }
 
+@media screen and (max-width:950px){
+  .skill-container-inner{
+    flex-direction: column;
+  }
+
+  .skill-container{
+    margin: 0;
+  }
+}
+
 @media screen and (max-width:800px){
   .certi-container{
     flex-direction: column;
@@ -109,5 +119,9 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  .skill-container{
+    flex-direction: column;
   }
 }
