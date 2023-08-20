@@ -452,3 +452,11 @@ footer {
 footer p {
   text-align: center;
 }
+
+.certi-container{
+  display: flex;
+}
+
+.certi-container img{
+  width: 100%;
+}
