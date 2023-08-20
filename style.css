@@ -165,7 +165,6 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  height: 80vh;
 }
 
 .section__pic-container {
@@ -461,4 +460,21 @@ footer p {
 
 .certi-container img{
   width: 100%;
+}
+
+.skill-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+
+.skill-container p{
+  font-weight: 700;
+}
+
+.skill-container article{
+  width: 200px;
 }

@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    height: 60vh;
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -9,6 +9,10 @@
 }
 
 @media screen and (max-width: 1200px) {
+  section{
+    margin: 7rem;
+  }
+
   #desktop-nav {
     display: none;
   }
@@ -55,8 +59,12 @@
     height: 40vh;
   }
   #profile {
-    height: 83vh;
+    height: 70vh;
     margin-bottom: 0;
+  }
+  .section__pic-container{
+    width: 80% !important;
+    padding: 0;
   }
   article {
     font-size: 1rem;
